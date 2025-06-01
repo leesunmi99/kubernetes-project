@@ -33,6 +33,9 @@ vagrant up
 만약 오류시 ```vagrant destroy```를 사용해서 삭제 후 재설치 
 
 
+
+
+
 # Jenkins 초기 세팅
 ### 초기 비밀번호 확인 (VM에서)
 ```bash
