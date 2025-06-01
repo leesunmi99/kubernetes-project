@@ -1,4 +1,6 @@
 vagrant 설치 및 Jenkins 초기 세팅 과정입니다. 
+- vagrantfile
+https://github.com/k8s-1pro/install/blob/main/ground/k8s-1.27/vagrant-2.4.3/Vagrantfile
 
 # Vagrant 설치
 ## Infra 환경
