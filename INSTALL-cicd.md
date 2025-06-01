@@ -57,7 +57,7 @@ Gradle installations
 - name: gradle-7.6.1
 - GRADLE_HOME: /opt/gradle/gradle-7.6.1
 
-
+<br></br>
 # Docker login
 ⚠️ 단, 이는 급하게 CI/CD 서버를 구축할 때만 사용한다. 
 ```bash
@@ -67,7 +67,7 @@ su - jenkins -s /bin/bash
 docker login
 ```
 
-
+<br></br>
 # Master Node 의 인증서 복사 (CI/CD 로그인 - Jenkins)
 ```bash
 scp root@192.168.56.30:/root/.kube/config ~/.kube
