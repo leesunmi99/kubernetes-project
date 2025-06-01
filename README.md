@@ -1,6 +1,14 @@
 # kubernetes-project
 
 # Vagrant 설치 - cicd-server
+
+## 📁 디렉토리 생성 및 이동
+
+```bash
+mkdir cicd
+cd cicd
+
+
 Vagrant 설치 폴더
 
 ```mkdir cicd```
