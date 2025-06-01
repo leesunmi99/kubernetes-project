@@ -3,6 +3,7 @@
 
 ## Vagrant 설치
 ```mkdir cicd```
+
 ```cd cicd```
 
 Vagrant 스크립트 다운로드
