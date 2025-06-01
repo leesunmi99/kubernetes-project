@@ -6,7 +6,7 @@
 
 ```bash
 mkdir cicd
-cd cicd
+cd cicd```
 
 
 
