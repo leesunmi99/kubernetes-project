@@ -1,4 +1,4 @@
-# kubernetes-project
+CI/CD 서버를 위한 vagrant 설치 및 Jenkins 초기 세팅 
 
 # Vagrant 설치 - cicd-server
 
@@ -30,4 +30,8 @@ Vagrant 실행
 ```bash
 vagrant up
 ```
+
+
+
+# Jenkins 초기 세팅
 
