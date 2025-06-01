@@ -39,7 +39,7 @@ vagrant up
 cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
-### 전역 설정 (System Configuration > tools)
+### 전역 설정 (Jenkins > System Configuration > tools)
 JDK installations
 - Name: jdk-17
 - JAVA_HOME: java-17-openjdk-17.0.15.0.6-2.el8.x86_64/bin/java
