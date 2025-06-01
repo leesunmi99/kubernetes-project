@@ -34,4 +34,7 @@ vagrant up
 
 
 # Jenkins 초기 세팅
-
+초기 비밀번호 확인 (VM에서)
+```bash
+cat /var/lib/jenkins/secrets/initialAdminPassword
+```
