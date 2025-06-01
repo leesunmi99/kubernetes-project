@@ -56,7 +56,7 @@ Gradle installations
 
 
 # Docker login
-단, 이는 급하게 CI/CD 서버를 구축할 때만 사용한다. 
+⚠️ 단, 이는 급하게 CI/CD 서버를 구축할 때만 사용한다. 
 ```bash
 chmod 666 /var/run/docker.sock
 usermod -aG docker jenkins
