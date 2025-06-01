@@ -41,8 +41,8 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ### 전역 설정 (System Configuration > tools)
 JDK installations
-Name: jdk-17
-JAVA_HOME: java-17-openjdk-17.0.15.0.6-2.el8.x86_64/bin/java
+- Name: jdk-17
+- JAVA_HOME: java-17-openjdk-17.0.15.0.6-2.el8.x86_64/bin/java
 ```bash
 # java 명령어 실행 위치 확인 
 readlink -f $(which java)
@@ -51,8 +51,8 @@ export PATH=$JAVA_HOME/bin:$PATH
 ```
 
 Gradle installations
-name: gradle-7.6.1
-GRADLE_HOME: /opt/gradle/gradle-7.6.1
+- name: gradle-7.6.1
+- GRADLE_HOME: /opt/gradle/gradle-7.6.1
 
 
 # Docker login
