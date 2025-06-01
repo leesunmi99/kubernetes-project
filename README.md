@@ -1,4 +1,4 @@
-CI/CD 서버를 위한 vagrant 설치 및 Jenkins 초기 세팅 
+CI/CD 서버를 위한 vagrant 설치 및 Jenkins 초기 세팅 순서입니다. 
 
 # Vagrant 설치 - cicd-server
 
