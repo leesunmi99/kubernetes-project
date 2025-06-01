@@ -3,24 +3,24 @@ CI/CD 서버를 위한 vagrant 설치 및 Jenkins 초기 세팅 과정입니다.
 # Vagrant 설치
 ## Infra 환경
 
-#Vagrant 폴더 생성
+Vagrant 폴더 생성
 ```bash
 mkdir k8s && cd k8s
 ```
-# Vagrant 스크립트 다운로드
+Vagrant 스크립트 다운로드
 ```bash
 curl -O https://raw.githubusercontent.com/k8s-1pro/install/main/ground/k8s-1.27/vagrant-2.4.3/Vagrantfile
 ```
-# Rocky Linux Repo 세팅
+Rocky Linux Repo 세팅
 ```bash
 curl -O https://raw.githubusercontent.com/k8s-1pro/install/main/ground/k8s-1.27/vagrant-2.4.3/rockylinux-repo.json
 vagrant box add rockylinux-repo.json
 ```
-# Vagrant Disk 설정 Plugin 설치
+Vagrant Disk 설정 Plugin 설치
 ```bash
 vagrant plugin install vagrant-vbguest vagrant-disksize
 ```
-# Vagrant 실행 (VM생성)
+Vagrant 실행 (VM생성)
 ```bash
 vagrant up
 ```
