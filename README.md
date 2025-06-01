@@ -2,22 +2,18 @@
 
 # Vagrant 설치 - cicd-server
 
-## 📁 디렉토리 생성 및 이동
+📁 디렉토리 생성 및 이동
 
 ```bash
 mkdir cicd
 cd cicd
 
 
-Vagrant 설치 폴더
 
-```mkdir cicd```
+⬇️ Vagrant 스크립트 다운로드
 
-```cd cicd```
-
-Vagrant 스크립트 다운로드
-
-```curl -O https://raw.githubusercontent.com/k8s-1pro/install/main/ground/cicd-server/vagrant-2.4.3/Vagrantfile```
+```bash
+curl -O https://raw.githubusercontent.com/k8s-1pro/install/main/ground/cicd-server/vagrant-2.4.3/Vagrantfile```
 
 
 Rocky Linux Repo 세팅
