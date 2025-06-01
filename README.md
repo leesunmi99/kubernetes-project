@@ -6,7 +6,8 @@
 
 ```bash
 mkdir cicd
-cd cicd```
+cd cicd
+```
 
 
 
@@ -14,7 +15,7 @@ cd cicd```
 
 ```bash
 curl -O https://raw.githubusercontent.com/k8s-1pro/install/main/ground/cicd-server/vagrant-2.4.3/Vagrantfile```
-
+```
 
 Rocky Linux Repo 세팅
 
